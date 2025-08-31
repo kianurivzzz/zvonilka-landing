@@ -130,7 +130,7 @@ function initAnalytics() {
 function addPageLoadAnimation() {
   const heroTitle = document.querySelector('.hero-title');
   const heroSubtitle = document.querySelector('.hero-subtitle');
-  const heroButton = document.querySelector('.hero-cta .btn-primary');
+  const heroButtons = document.querySelector('.hero-buttons');
   
   if (heroTitle) {
     heroTitle.style.opacity = '0';
@@ -154,14 +154,14 @@ function addPageLoadAnimation() {
     }, 400);
   }
   
-  if (heroButton) {
-    heroButton.style.opacity = '0';
-    heroButton.style.transform = 'translateY(30px)';
-    heroButton.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+  if (heroButtons) {
+    heroButtons.style.opacity = '0';
+    heroButtons.style.transform = 'translateY(30px)';
+    heroButtons.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     
     setTimeout(() => {
-      heroButton.style.opacity = '1';
-      heroButton.style.transform = 'translateY(0)';
+      heroButtons.style.opacity = '1';
+      heroButtons.style.transform = 'translateY(0)';
     }, 600);
   }
 }

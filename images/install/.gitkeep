@@ -1,0 +1,24 @@
+# Placeholder images needed for installation guide
+
+## Safari (iPhone) screenshots:
+- safari-step1.png - Сайт zvonilka.online открытый в Safari на iPhone
+- safari-step2.png - Кнопка "Поделиться" (квадрат со стрелкой вверх) выделена в Safari
+- safari-step3.png - Меню "Поделиться" с выделенной опцией "На экран Домой"
+- safari-step4.png - Диалог подтверждения "Добавить на экран Домой" с кнопкой "Добавить"
+
+## Chrome (Android) screenshots:
+- chrome-step1.png - Сайт zvonilka.online открытый в Chrome на Android
+- chrome-step2.png - Меню Chrome (три точки) открыто в правом верхнем углу
+- chrome-step3.png - Опция "Установить приложение" или "Добавить на главный экран" в меню Chrome
+- chrome-step4.png - Диалог подтверждения установки PWA в Chrome
+
+## Samsung Internet screenshots:
+- samsung-step1.png - Сайт zvonilka.online в Samsung Internet
+- samsung-step2.png - Меню Samsung Internet (три линии) внизу экрана
+- samsung-step3.png - Опция "Добавить на главный экран" в меню Samsung Internet
+
+Все изображения должны быть:
+- Размер: примерно 300-400px по ширине
+- Формат: PNG с прозрачным фоном или на белом фоне
+- Качество: четкие, хорошо видные интерфейсные элементы
+- Стиль: соответствовать реальному виду браузеров на мобильных устройствах

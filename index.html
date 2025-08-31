@@ -36,6 +36,22 @@
         href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
         rel="stylesheet">
 
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=103958025', 'ym');
+
+        ym(103958025, 'init', { ssr: true, webvisor: true, clickmap: true, ecommerce: "dataLayer", accurateTrackBounce: true, trackLinks: true });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/103958025" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -61,10 +77,16 @@
                     <h1 class="hero-title">Просто созвонись</h1>
                     <p class="hero-subtitle">Создай звонок за секунду. Поделись ссылкой. Говори.</p>
                     <div class="hero-cta">
-                        <a href="https://app.zvonilka.online" class="btn btn-primary">
-                            <i data-lucide="phone" class="w-5 h-5"></i>
-                            Создать звонок
-                        </a>
+                        <div class="hero-buttons">
+                            <a href="https://app.zvonilka.online" class="btn btn-primary">
+                                <i data-lucide="phone" class="w-5 h-5"></i>
+                                Позвонить
+                            </a>
+                            <a href="/install.html" class="btn btn-secondary">
+                                <i data-lucide="download" class="w-5 h-5"></i>
+                                Установить
+                            </a>
+                        </div>
                         <div class="hero-demo">
                             <video class="demo-video" autoplay muted loop playsinline poster="images/create_call.PNG"
                                 preload="metadata">
@@ -327,7 +349,7 @@
                     <h2 class="cta-title">Давай попробуем?</h2>
                     <p class="cta-subtitle">Создай свой первый звонок прямо сейчас</p>
                     <a href="https://app.zvonilka.online" class="btn btn-primary btn-large">
-                        Создать звонок
+                        Позвонить
                     </a>
                 </div>
             </div>
@@ -347,6 +369,7 @@
                     <div class="footer-group">
                         <h4 class="footer-group-title">Продукт</h4>
                         <a href="https://app.zvonilka.online" class="footer-link">Приложение</a>
+                        <a href="/install.html" class="footer-link">Установка</a>
                         <a href="https://t.me/nkarasyov" class="footer-link">Поддержка</a>
                     </div>
                     <!-- <div class="footer-group">
